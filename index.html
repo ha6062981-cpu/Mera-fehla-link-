@@ -1,75 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JPO Sir Hanif Ahmed - Rabta Form</title>
-    <style>
-        body { 
-            background-color: #001f3f; 
-            color: white; 
-            text-align: center; 
-            font-family: Arial; 
-            padding: 20px;
-            margin: 0;
-        }
-        .header {
-            padding: 20px 0;
-        }
-        .form-box {
-            background: white;
-            color: black;
-            max-width: 400px;
-            margin: 20px auto;
-            padding: 25px;
-            border-radius: 15px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-        }
-        input, textarea {
-            width: 90%;
-            padding: 12px;
-            margin: 10px 0;
-            border: 2px solid #001f3f;
-            border-radius: 8px;
-            font-size: 16px;
-            font-family: Arial;
-        }
-        button {
-            background: #25D366;
-            color: white;
-            padding: 15px 40px;
-            border: none;
-            border-radius: 10px;
-            font-size: 18px;
-            cursor: pointer;
-            margin-top: 10px;
-            font-weight: bold;
-        }
-        .note {
-            font-size: 12px;
-            color: #555;
-            margin-top: 15px;
-        }
-    </style>
+<title>Login</title>
+<style>
+body {
+  background-color: black;
+  color: #00ff00;
+  font-family: monospace;
+  text-align: center;
+  margin-top: 100px;
+}
+
+input {
+  background: black;
+  border: 1px solid #00ff00;
+  color: #00ff00;
+  padding: 10px;
+  margin: 10px;
+}
+
+button {
+  background: #00ff00;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: lime;
+}
+</style>
 </head>
+
 <body>
-    <div class="header">
-        <h1>🚓 JPO Sir Hanif Ahmed 💙</h1>
-        <h2>Rabta Karne Ke Liye Form Bharain</h2>
-    </div>
-    
-    <div class="form-box">
-        <form action="https://formspree.io/f/mrejjkek" method="POST">
-            <input type="text" name="Naam" placeholder="Aap Ka Pura Naam" required>
-            <input type="tel" name="Mobile" placeholder="Mobile Number 03XX-XXXXXXX" required>
-            <input type="text" name="Shehar" placeholder="Shehar / Mukammal Address" required>
-            <textarea name="Pegham" placeholder="Aap Ka Pegham / Masla" rows="4" required></textarea>
-            
-            <button type="submit">Submit Karo</button>
-            <p class="note">Submit karne se aap JPO Sir se rabta karne ki ijazat de rahe hain</p>
-        </form>
-    </div>
-    
-    <p>Mission Complete ✅ 404 Defeated | Legal & Safe ⚖️</p>
+
+<h1>🔐 Secure Login</h1>
+
+<form>
+  <input type="text" placeholder="Username"><br>
+  <input type="password" placeholder="Password"><br>
+  <button type="submit">Login</button>
+</form>
+
+<p>Access Restricted ⚠️</p>
+
 </body>
 </html>
